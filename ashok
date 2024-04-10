@@ -1,0 +1,11 @@
+* grep  gid  /etc/group 
+# grep -i 2600 /etc/group
+* grep username /etc/group
+# grep -i dba /etc/group
+# groupadd -g 2600 dba
+* grep gid /etc/group
+# grep -i 2600 /etc/group
+dba:x:2600:
+* grep username /etc/group
+# grep -i dba /etc/group
+dba:x:2600:
